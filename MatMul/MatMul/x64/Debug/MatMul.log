@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\kamin\source\repos\MatMul\MatMul>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Vcpkg\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static --std=c++14 -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\kamin\source\repos\MatMul\MatMul\kernel.cu" 
+C:/Users/kamin/source/repos/MatMul/MatMul/kernel.cu(61): warning : variable "timerValueCPU" was declared but never referenced
+  
+CUDACOMPILE : nvcc warning : The -std=c++14 flag is not supported with the configured host compiler. Flag will be ignored.
+  kernel.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:/Users/kamin/source/repos/MatMul/MatMul/kernel.cu(102): warning C4996: 'cudaThreadSynchronize': объявлен deprecate
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include\cuda_runtime_api.h(957): note:  см. объявление "cudaThreadSynchronize"
+  MatMul.vcxproj -> C:\Users\kamin\source\repos\MatMul\x64\Debug\MatMul.exe
