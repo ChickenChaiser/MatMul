@@ -18,7 +18,7 @@ Run executable program: MatMul\x64\Debug\MatMul.exe
 | GPU     | GeForce GTX 1060 6 GB |
 | OS type | 64-bit  |
 
-## Conclusion5752027013  
+## Conclusion
 
 Results of reseach. "SIZE" is mean multiplier size.
 Average time in seconds over 10 measurements.
